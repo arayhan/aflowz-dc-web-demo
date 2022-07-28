@@ -1,7 +1,9 @@
+import Router from '@pages/Router';
+
 function App() {
   return (
     <div>
-      <h1>DC</h1>
+      <Router />
     </div>
   );
 }
