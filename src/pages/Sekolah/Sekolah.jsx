@@ -35,7 +35,7 @@ const Sekolah = () => {
                 ea rem sunt necessitatibus aliquid.
               </p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
               <div className="bg-white shadow-md rounded-md text-center">
                 <div className="space-y-2 border-b p-5">
                   <div className="text-sm text-gray-500">Total Penerima</div>
