@@ -16,7 +16,7 @@ function Home() {
             </p>
             <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-primary" />
           </div>
-          <div className="grid grid-cols-3 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
             <Link
               to="/sekolah/sdn-1-depok"
               className="shadow-md bg-white rounded-md hover:bg-gray-100 transition-all">
