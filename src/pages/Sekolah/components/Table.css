@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+  @apply border bg-white rounded-md;
+}
+
+table thead th {
+  @apply p-3 border text-sm;
+}
+
+table tbody td {
+  @apply p-3 border text-sm;
+}
+
+table tbody td:last-child {
+}
