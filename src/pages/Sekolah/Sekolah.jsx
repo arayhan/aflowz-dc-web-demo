@@ -35,32 +35,32 @@ const Sekolah = () => {
                 ea rem sunt necessitatibus aliquid.
               </p>
             </div>
-            <div className="grid grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-white shadow-md rounded-md text-center">
                 <div className="space-y-2 border-b p-5">
                   <div className="text-sm text-gray-500">Total Penerima</div>
-                  <div className="text-3xl font-semibold">PIP</div>
+                  <div className="text-xl md:text-3xl font-semibold">PIP</div>
                 </div>
                 <div className="p-4">100</div>
               </div>
               <div className="bg-white shadow-md rounded-md text-center">
                 <div className="space-y-2 border-b p-5">
                   <div className="text-sm text-gray-500">Total Penerima</div>
-                  <div className="text-3xl font-semibold">KIP</div>
+                  <div className="text-xl md:text-3xl font-semibold">KIP</div>
                 </div>
                 <div className="p-4">100</div>
               </div>
               <div className="bg-white shadow-md rounded-md text-center">
                 <div className="space-y-2 border-b p-5">
                   <div className="text-sm text-gray-500">Total Penerima</div>
-                  <div className="text-3xl font-semibold">Bimtek</div>
+                  <div className="text-xl md:text-3xl font-semibold">Bimtek</div>
                 </div>
                 <div className="p-4">100</div>
               </div>
               <div className="bg-white shadow-md rounded-md text-center">
                 <div className="space-y-2 border-b p-5">
                   <div className="text-sm text-gray-500">Total Penerima</div>
-                  <div className="text-3xl font-semibold">Bantuan</div>
+                  <div className="text-xl md:text-3xl font-semibold">Bantuan</div>
                 </div>
                 <div className="p-4">100</div>
               </div>
@@ -76,7 +76,7 @@ const Sekolah = () => {
                 <option value="2019">2019</option>
               </select>
             </div>
-            <div>
+            <div className="overflow-x-scroll">
               <Table />
             </div>
           </div>
